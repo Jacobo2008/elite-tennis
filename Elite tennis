@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Tennis - Tu Tienda Especializada</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #004d40, #009688);
+            color: white;
+            text-align: center;
+            padding: 1.5em;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #00796b;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #ffeb3b;
+        }
+        section {
+            padding: 30px;
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        h2 {
+            color: #00796b;
+            text-align: center;
+        }
+        .news, .product {
+            background: #e0f2f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #00796b;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background-color: #004d40;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #004d40;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Elite Tennis - Eleva tu Juego</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#noticias">Noticias</a>
+        <a href="#nosotros">Sobre Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    
+    <section id="inicio">
+        <h2>Bienvenido a Elite Tennis</h2>
+        <p>Encuentra lo mejor en equipamiento de tenis: raquetas, encordados, pelotas, zapatillas y más. Eleva tu juego con la mejor calidad y asesoramiento profesional.</p>
+        <img src="images/tenis_banner.jpg" alt="Imagen de tenis" width="100%">
+    </section>
+    
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="products">
+            <div class="product">
+                <img src="images/raqueta.jpg" alt="Raqueta de tenis">
+                <h3>Raquetas Profesionales</h3>
+                <p>Las mejores marcas y modelos para todos los niveles.</p>
+                <a href="#" class="button">Ver más</a>
+            </div>
+            <div class="product">
+                <img src="images/encordado.jpg" alt="Servicio de encordado">
+                <h3>Encordados Personalizados</h3>
+                <p>Servicio profesional con diferentes tensiones y materiales.</p>
+                <a href="#" class="button">Ver más</a>
+            </div>
+            <div class="product">
+                <img src="images/zapatillas.jpg" alt="Zapatillas de tenis">
+                <h3>Zapatillas Especializadas</h3>
+                <p>Comodidad y agarre superior para cada tipo de superficie.</p>
+                <a href="#" class="button">Ver más</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="noticias">
+        <h2>Noticias</h2>
+        <div class="news">
+            <h3>¡Nuevo servicio de encordado!</h3>
+            <p>Ahora puedes encordar tu raqueta con la mejor calidad y precisión. ¡Visítanos!</p>
+        </div>
+        <div class="news">
+            <h3>Lanzamiento de zapatillas Elite Tennis</h3>
+            <p>Descubre la nueva colección de zapatillas diseñadas para máxima comodidad y estabilidad.</p>
+        </div>
+    </section>
+    
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>En Elite Tennis compartimos tu pasión por el tenis. Con años de experiencia en el deporte, ofrecemos productos de calidad y asesoría personalizada para ayudarte a alcanzar tu máximo rendimiento.</p>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>📍 Dirección:Colombia, Pereira, corales</p>
+        <p>📞 Teléfono: 321-321-321</p>
+        <p>📧 Correo: info@elitetennis.com</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Elite Tennis. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
